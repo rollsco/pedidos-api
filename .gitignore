@@ -1,3 +1,6 @@
 .env
 
 node_modules
+
+// Admin and Private Key for Firebase project
+src/firebase/rolls-co-admin.json
