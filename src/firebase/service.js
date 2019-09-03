@@ -1,5 +1,5 @@
 const admin = require("firebase-admin");
-const serviceAccount = require("./rolls-co-firebase-adminsdk-d6oam-705e76e865.json");
+const serviceAccount = require("./rolls-co-admin.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -8,15 +8,50 @@ admin.initializeApp({
 
 let firestore = admin.firestore();
 
-const get = async (collection, relationships) => {
-  const querySnapshot = await firestore.collection(collection).get();
+const getDocWithId = queryDocumentSnapshot => ({
+  id: queryDocumentSnapshot.id,
+  ...queryDocumentSnapshot.data()
+});
 
-  return querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-}
+const getSubcollections = async (queryDocumentSnapshot, include) => {
+  const subcollections = {};
+
+  if (include) {
+    await Promise.all(
+      include.map(async detailLevelEntityPair => {
+        // TODO take detailLevel into account
+        const [detailLevel, entity] = detailLevelEntityPair.split("-");
+        const entities = await get(
+          `${queryDocumentSnapshot.ref.path}/${entity}`,
+          include
+        );
+
+        if (entities.length > 0) {
+          subcollections[entity] = entities;
+        }
+      })
+    );
+  }
+
+  return subcollections;
+};
+
+const get = async (path, include) => {
+  const querySnapshot = await firestore.collection(path).get();
+
+  const entities = await Promise.all(
+    querySnapshot.docs.map(async doc => ({
+      ...getDocWithId(doc),
+      ...(await getSubcollections(doc, include))
+    }))
+  );
+
+  return entities;
+};
 
 module.exports = {
   firestoreService: {
     get,
-  },
-}
-
+    temp
+  }
+};
