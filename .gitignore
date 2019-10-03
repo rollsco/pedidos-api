@@ -3,4 +3,7 @@
 node_modules
 
 // Admin and Private Key for Firebase project
-src/firebase/rolls-co-admin.json
+src/firebase/rolls-co-admin.json*
+
+// Migrations config file
+src/firebase/migrations/config

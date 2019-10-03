@@ -4,4 +4,7 @@
 - Node.js
 
 ## Installation
- - npm install
+- `npm install`
+
+## Run migrations
+- `npm run migrations` 
