@@ -4,7 +4,7 @@ const { defaultOptions, createRelationshipOptions } = require("./utils");
 const type = "section";
 
 const attributes = ["name", "color", "products"];
-const products = createRelationshipOptions(["name", "price", "img"]);
+const products = createRelationshipOptions(["name", "price", "img", "pieces", "description"]);
 
 const sectionSerializer = new JSONAPISerializer(type, {
   ...defaultOptions,

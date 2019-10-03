@@ -26,9 +26,7 @@ const getSubcollections = async (queryDocumentSnapshot, include) => {
           include
         );
 
-        if (entities.length > 0) {
-          subcollections[entity] = entities;
-        }
+        subcollections[entity] = entities;
       })
     );
   }
@@ -37,7 +35,10 @@ const getSubcollections = async (queryDocumentSnapshot, include) => {
 };
 
 const get = async (path, include) => {
-  const querySnapshot = await firestore.collection(path).get();
+  const querySnapshot = await firestore
+    .collection(path)
+    .orderBy("order")
+    .get();
 
   const entities = await Promise.all(
     querySnapshot.docs.map(async doc => ({
@@ -51,7 +52,6 @@ const get = async (path, include) => {
 
 module.exports = {
   firestoreService: {
-    get,
-    temp
+    get
   }
 };
