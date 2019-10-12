@@ -6,7 +6,7 @@ const up = () => {
     {
       order: order++,
       units: 2,
-      price: 13500,
+      price: 4000,
       name: "limonada caño cristales",
       img: "limonada-cano-cristales.jpg",
       description: "Limonada natural de sandía"
@@ -14,7 +14,7 @@ const up = () => {
     {
       order: order++,
       units: 2,
-      price: 15900,
+      price: 3000,
       name: "limonada magdalena",
       img: "limonada-magdalena.jpg",
       description: "Limonada natural de panela con hierbabuena"
@@ -22,7 +22,7 @@ const up = () => {
     {
       order: order++,
       units: 2,
-      price: 13900,
+      price: 10000,
       name: "mojito amazonas",
       img: "mojito-fresa.jpg",
       description: "Ron blanco, fresa, limón, hierbabuena y azúcar"
@@ -30,7 +30,7 @@ const up = () => {
     {
       order: order++,
       units: 2,
-      price: 12500,
+      price: 10000,
       name: "mojito guatapurí",
       img: "mojito-verde.jpg",
       description: "Ron blanco, limón, hierbabuena y azúcar"

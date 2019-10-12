@@ -9,7 +9,7 @@ const up = () => {
       price: 18900,
       name: "TAGANGA ROLL",
       img: "taganga-roll.jpg",
-      description: "Camarones, cebollín y queso crema, cubierto de aguacate y lluvia de coco",
+      description: "camarón, cebollín y queso crema, cubierto de aguacate y lluvia de coco",
     },
     {
       order: order++,
@@ -17,7 +17,7 @@ const up = () => {
       price: 11900,
       name: "TAGANGA ROLL",
       img: "taganga-roll.jpg",
-      description: "Camarones, cebollín y queso crema, cubierto de aguacate y lluvia de coco",
+      description: "camarón, cebollín y queso crema, cubierto de aguacate y lluvia de coco",
     },
     {
       order: order++,
@@ -41,7 +41,7 @@ const up = () => {
       price: 18900,
       name: "SAN ANDRÉS ROLL",
       img: "san-andres-roll.jpg",
-      description: "Camarones, piña y queso crema, apanado en coco",
+      description: "camarón, piña y queso crema, apanado en coco",
     },
     {
       order: order++,
@@ -49,7 +49,7 @@ const up = () => {
       price: 11900,
       name: "SAN ANDRÉS ROLL",
       img: "san-andres-roll.jpg",
-      description: "Camarones, piña y queso crema, apanado en coco",
+      description: "camarón, piña y queso crema, apanado en coco",
     },
     {
       order: order++,
@@ -57,7 +57,7 @@ const up = () => {
       price: 17900,
       name: "MÚCURA ROLL",
       img: "mucura-roll.jpg",
-      description: "Tilapia apanada, cebollín, pepino y queso mozarella con lluvia de ajonjolí",
+      description: "Tilapia apanada, cebollín, pepino y mozarella con lluvia de ajonjolí",
     },
     {
       order: order++,
@@ -65,7 +65,7 @@ const up = () => {
       price: 11000,
       name: "MÚCURA ROLL",
       img: "mucura-roll.jpg",
-      description: "Tilapia apanada, cebollín, pepino y queso mozarella con lluvia de ajonjolí",
+      description: "Tilapia apanada, cebollín, pepino y mozarella con lluvia de ajonjolí",
     },
     {
       order: order++,
@@ -73,7 +73,7 @@ const up = () => {
       price: 18900,
       name: "BARICHARA ROLL",
       img: "barichara-roll.jpg",
-      description: "Tocineta, cebolla grillé, maíz tierno y queso mozarella, apanado en panko",
+      description: "Tocineta, cebolla grillé, maíz y mozarella, apanado en panko",
     },
     {
       order: order++,
@@ -81,7 +81,7 @@ const up = () => {
       price: 11000,
       name: "BARICHARA ROLL",
       img: "barichara-roll.jpg",
-      description: "Tocineta, cebolla grillé, maíz tierno y queso mozarella, apanado en panko",
+      description: "Tocineta, cebolla grillé, maíz y mozarella, apanado en panko",
     },
     {
       order: order++,
@@ -89,7 +89,7 @@ const up = () => {
       price: 17900,
       name: "MOMPÓS ROLL",
       img: "mompos-roll.jpg",
-      description: "Pollo apanado, hogao y queso crema, cubierto en tajadas de maduro",
+      description: "Pollo apanado, hogao y queso crema, cubierto en maduro",
     },
     {
       order: order++,
@@ -97,7 +97,7 @@ const up = () => {
       price: 10900,
       name: "MOMPÓS ROLL",
       img: "mompos-roll.jpg",
-      description: "Pollo apanado, hogao y queso crema, cubierto en tajadas de maduro",
+      description: "Pollo apanado, hogao y queso crema, cubierto en maduro",
     },
     {
       order: order++,
@@ -105,7 +105,7 @@ const up = () => {
       price: 18900,
       name: "VILLA DE LEYVA ROLL",
       img: "villa-de-leyva-roll.jpg",
-      description: "Pollo teriyaki, champiñones, papa criolla y queso crema con lluvia de quinoa y ajonjolí",
+      description: "Pollo teriyaki, champiñones, papa criolla y queso crema con quinoa y ajonjolí",
     },
     {
       order: order++,
@@ -113,7 +113,7 @@ const up = () => {
       price: 11000,
       name: "VILLA DE LEYVA ROLL",
       img: "villa-de-leyva-roll.jpg",
-      description: "Pollo teriyaki, champiñones, papa criolla y queso crema con lluvia de quinoa y ajonjolí",
+      description: "Pollo teriyaki, champiñones, papa criolla y queso crema con quinoa y ajonjolí",
     },
     {
       order: order++,
@@ -153,7 +153,7 @@ const up = () => {
       price: 18900,
       name: "TUMACO ROLL",
       img: "tumaco-roll.jpg",
-      description: "Camarones apanados y queso crema, cubierto de tajadas de maduro y guacamole",
+      description: "camarón apanados y queso crema, cubierto de maduro y guacamole",
     },
     {
       order: order++,
@@ -161,7 +161,7 @@ const up = () => {
       price: 11900,
       name: "TUMACO ROLL",
       img: "tumaco-roll.jpg",
-      description: "Camarones apanados y queso crema, cubierto de tajadas de maduro y guacamole",
+      description: "camarón apanados y queso crema, cubierto de maduro y guacamole",
     },
     {
       order: order++,
@@ -169,7 +169,7 @@ const up = () => {
       price: 19900,
       name: "NUQUÍ ROLL",
       img: "nuqui-roll.jpg",
-      description: "Salmón fresco, aguacate y queso crema, cubierto de aguacate y salsa teriyaki",
+      description: "Salmón fresco, aguacate y queso crema, cubierto de aguacate y teriyaki",
     },
     {
       order: order++,
@@ -177,7 +177,7 @@ const up = () => {
       price: 12900,
       name: "NUQUÍ ROLL",
       img: "nuqui-roll.jpg",
-      description: "Salmón fresco, aguacate y queso crema, cubierto de aguacate y salsa teriyaki",
+      description: "Salmón fresco, aguacate y queso crema, cubierto de aguacate y teriyaki",
     },
     {
       order: order++,
@@ -185,7 +185,7 @@ const up = () => {
       price: 18900,
       name: "MALPELO ROLL",
       img: "malpelo-roll.jpg",
-      description: "Camarones, tomates secos y queso crema, apanado en tempura",
+      description: "camarón, tomates secos y queso crema, apanado en tempura",
     },
     {
       order: order++,
@@ -193,7 +193,7 @@ const up = () => {
       price: 11900,
       name: "MALPELO ROLL",
       img: "malpelo-roll.jpg",
-      description: "Camarones, tomates secos y queso crema, apanado en tempura",
+      description: "camarón, tomates secos y queso crema, apanado en tempura",
     },
     {
       order: order++,
@@ -201,7 +201,7 @@ const up = () => {
       price: 22900,
       name: "VILLAVICENCIO ROLL",
       img: "villavicencio-roll.jpg",
-      description: "Salmón y camarones con queso crema, apanado en tempura",
+      description: "Salmón y camarón con queso crema, apanado en tempura",
     },
     {
       order: order++,
@@ -209,7 +209,7 @@ const up = () => {
       price: 13900,
       name: "VILLAVICENCIO ROLL",
       img: "villavicencio-roll.jpg",
-      description: "Salmón y camarones con queso crema, apanado en tempura",
+      description: "Salmón y camarón con queso crema, apanado en tempura",
     },
     {
       order: order++,
@@ -233,7 +233,7 @@ const up = () => {
       price: 23900,
       name: "ACACÍAS ROLL",
       img: "acacias-roll.jpg",
-      description: "Camarones y vegetales con cobertura de tilapia acevichada",
+      description: "camarón y vegetales con cobertura de tilapia acevichada",
     },
     {
       order: order++,
@@ -241,7 +241,7 @@ const up = () => {
       price: 14000,
       name: "ACACÍAS ROLL",
       img: "acacias-roll.jpg",
-      description: "Camarones y vegetales con cobertura de tilapia acevichada",
+      description: "camarón y vegetales con cobertura de tilapia acevichada",
     },
     {
       order: order++,
@@ -313,7 +313,7 @@ const up = () => {
       price: 15000,
       name: "MITÚ ROLL",
       img: "mitu-roll.jpg",
-      description: "Champiñones, mango, lechuga y queso crema con lluvia de quinoa",
+      description: "Champiñones, mango, lechuga y queso crema con quinoa",
     },
     {
       order: order++,
@@ -321,7 +321,7 @@ const up = () => {
       price: 9900,
       name: "MITÚ ROLL",
       img: "mitu-roll.jpg",
-      description: "Champiñones, mango, lechuga y queso crema con lluvia de quinoa",
+      description: "Champiñones, mango, lechuga y queso crema con quinoa",
     },
   ];
 
