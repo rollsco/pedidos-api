@@ -6,7 +6,7 @@ const up = () => {
     {
       order: order++,
       grams: 150,
-      price: 22900,
+      price: 9900,
       name: "JARDÍN BOWL",
       img: "jardin-mini-bowl.jpg",
       description: "Deditos de pollo, caritas felices de papa, queso, tomate y aguacate",
@@ -14,7 +14,7 @@ const up = () => {
     {
       order: order++,
       grams: 150,
-      price: 18900,
+      price: 8900,
       name: "BELÉN BOWL",
       img: "belen-mini-bowl.jpg",
       description: "Pescado blanco apanado, fresa, mango, queso y aguacate",
