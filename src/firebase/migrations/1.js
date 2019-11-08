@@ -8,7 +8,7 @@ const up = () => {
       pieces: 40,
       name: "combo caribe grande",
       price: 57000,
-      img: "combo-grande-40-piezas.jpg",
+      img: "caribe-grande.jpg",
       description: 
         `10 bocados de Taganga roll
         10 bocados de Barú roll
@@ -20,7 +20,7 @@ const up = () => {
       pieces: 40,
       name: "combo andino grande",
       price: 56000,
-      img: "combo-grande-40-piezas.jpg",
+      img: "andino-grande.jpg",
       description:
         `10 bocados de Barichara roll
         10 Bocados de Mompós roll 
@@ -32,7 +32,7 @@ const up = () => {
       pieces: 40,
       name: "combo pacífico grande",
       price: 58000,
-      img: "combo-grande-40-piezas.jpg",
+      img: "pacifico-grande.jpg",
       description:
         `10 Bocados de Bahía solano roll
         10 Bocados de Tumaco roll
@@ -44,7 +44,7 @@ const up = () => {
       pieces: 40,
       name: "combo orinoquía grande",
       price: 72000,
-      img: "combo-grande-40-piezas.jpg",
+      img: "orinoquia-grande.jpg",
       description:
         `10 Bocados de Villavicencio roll
         10 bocados de Macarena roll
@@ -56,7 +56,7 @@ const up = () => {
       pieces: 40,
       name: "combo amazonía grande",
       price: 54000,
-      img: "combo-grande-40-piezas.jpg",
+      img: "amazonia-grande.jpg",
       description:
         `10 Bocados de Puerto Nariño roll
         10 Bocados de Florencia roll
@@ -68,7 +68,7 @@ const up = () => {
       pieces: 25,
       name: "combo caribe mediano",
       price: 37500,
-      img: "combo-mediano-25-piezas.jpg",
+      img: "caribe-mediano.jpg",
       description:
         `10 Bocados de Barú roll
         10 Bocados de Múcura roll
@@ -79,7 +79,7 @@ const up = () => {
       pieces: 25,
       name: "combo andino mediano",
       price: 36500,
-      img: "combo-mediano-25-piezas.jpg",
+      img: "andino-mediano.jpg",
       description:
         `10 bocados de Barichara roll
         10 Bocados de Villa de Leyva roll
@@ -90,7 +90,7 @@ const up = () => {
       pieces: 25,
       name: "combo pacífico mediano",
       price: 39900,
-      img: "combo-mediano-25-piezas.jpg",
+      img: "pacifico-mediano.jpg",
       description:
         `10 Bocados de nuquí roll
         10 bocados de Tumaco roll
@@ -101,7 +101,7 @@ const up = () => {
       pieces: 25,
       name: "combo orinoquía mediano",
       price: 47000,
-      img: "combo-mediano-25-piezas.jpg",
+      img: "orinoquia-mediano.jpg",
       description:
         `10 bocados de Villavicencio roll
         10 bocados de San Martín roll
@@ -112,7 +112,7 @@ const up = () => {
       pieces: 25,
       name: "combo amazonía mediano",
       price: 34000,
-      img: "combo-mediano-25-piezas.jpg",
+      img: "amazonia-mediano.jpg",
       description:
         `10 bocados de Florencia roll
         10 bocados de Putumayo roll
@@ -123,7 +123,7 @@ const up = () => {
       pieces: 15,
       name: "combo caribe pequeño",
       price: 24500,
-      img: "combo-pequeno-15-piezas.jpg",
+      img: "caribe-pequeno.jpg",
       description:
         `5 Bocados de Barú roll
         5 Bocados de Múcura roll
@@ -134,7 +134,7 @@ const up = () => {
       pieces: 15,
       name: "combo andino pequeño",
       price: 24000,
-      img: "combo-pequeno-15-piezas.jpg",
+      img: "andino-pequeno.jpg",
       description:
         `5 bocados de Barichara roll
         5 Bocados de villa de Leyva roll
@@ -145,7 +145,7 @@ const up = () => {
       pieces: 15,
       name: "combo pacífico pequeño",
       price: 26000,
-      img: "combo-pequeno-15-piezas.jpg",
+      img: "pacifico-pequeno.jpg",
       description:
         `5 Bocados de Nuquí roll
         5 bocados de Tumaco roll
@@ -156,7 +156,7 @@ const up = () => {
       pieces: 15,
       name: "combo orinoquía pequeño",
       price: 32000,
-      img: "combo-pequeno-15-piezas.jpg",
+      img: "orinoquia-pequeno.jpg",
       description:
         `5 bocados de Villavicencio roll
         5 bocados de San Martín roll
@@ -167,7 +167,7 @@ const up = () => {
       pieces: 15,
       name: "combo amazonía pequeño",
       price: 23000,
-      img: "combo-pequeno-15-piezas.jpg",
+      img: "amazonia-pequeno.jpg",
       description:
         `5 bocados de Florencia roll
         5 bocados de Putumayo roll
