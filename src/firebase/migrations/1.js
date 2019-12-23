@@ -5,6 +5,24 @@ const up = () => {
   const products = [
     {
       order: order++,
+      pieces: 100,
+      name: "¡combo navideño!",
+      price: 150000,
+      img: "arbolito.jpg",
+      description: 
+        `10 piezas Barichara
+        10 piezas Mompós
+        10 piezas Villa de leyva
+        10 piezas taganga
+        10 piezas san andres
+        10 piezas Múcura
+        1p piezas Putumayo
+        10 piezas Nuquí
+        10 piezas Tumaco 
+        10 piezas Barú`,
+    },
+    {
+      order: order++,
       pieces: 40,
       name: "combo caribe grande",
       price: 57000,
